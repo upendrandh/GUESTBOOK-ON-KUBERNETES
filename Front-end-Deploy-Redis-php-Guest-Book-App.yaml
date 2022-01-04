@@ -16,7 +16,7 @@ spec:
         tier: front-end
     spec:
       containers:
-        - name: php-redis-xfusion
+        - name: php-redis-datacenter
           image: gcr.io/google-samples/gb-frontend:v4
           resources:
             requests:
