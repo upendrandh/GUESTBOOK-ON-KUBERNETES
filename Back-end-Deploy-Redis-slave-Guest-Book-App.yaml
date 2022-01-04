@@ -16,7 +16,7 @@ spec:
         tier: back-end
     spec:
       containers:
-        - name: slave-redis-xfusion
+        - name: slave-redis-datacenter
           image: gcr.io/google_samples/gb-redisslave:v3
           resources:
             requests:
